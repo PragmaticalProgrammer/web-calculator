@@ -1,0 +1,33 @@
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#solutionBox {
+  background-color: white;
+}
+
+#calculatorContainer {
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: grey;
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+#calculatorContainer :first-child {
+  grid-column: 1 / -1;
+}
+/*# sourceMappingURL=styles.css.map */

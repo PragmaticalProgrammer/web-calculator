@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#solutionBox {
+  background-color: white;
+}
+
+#calculatorContainer {
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: grey;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#calculatorContainer :first-child {
+  grid-column: 1 / -1;
+}
